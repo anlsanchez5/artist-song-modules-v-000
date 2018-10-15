@@ -1,4 +1,6 @@
+require_relative '../lib/concerns/memorable'
 require 'pry'
+
 
 class Artist
   attr_accessor :name
